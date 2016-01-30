@@ -46,8 +46,13 @@ class SiteController extends Controller
             ],
         ];
     }
-
+    public $layoy = 'main';
     public function actionIndex()
+    {
+        $this->layout = 'sliders';
+        return $this->render('index');
+    }
+    public function actionIndex2()
     {
         return $this->render('index');
     }

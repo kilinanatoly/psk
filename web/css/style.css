@@ -1,0 +1,69 @@
+*{
+font-family: 'Open Sans', sans-serif;
+color:#727271 !important;
+}
+.container{
+	width: 970px !important;
+}
+html,body,.wrap{
+	background-color: #ccc;
+}
+html{
+}
+.slider_img{
+	max-width:100%;
+	position: absolute;
+	height:100%;
+}
+.header1{
+	//height: 80px;
+	background-color: white;
+	margin-top:10px;
+}
+.header1{
+	padding:10px;
+}
+.panel1{
+	border-radius: 1px !important;
+	margin:0 !important;
+}
+.panel1 img{
+	max-height: 100%;
+}
+.panel1 .panel-body{
+	padding:0;
+}
+.header_icons img{
+	width:25px;
+	margin:0 5px;
+}
+.header_bottom{
+	margin-top:36px;
+	font-size:18px;
+}
+.header_icons{
+	margin-top:32px;
+}
+.logo_text{
+	font-size: 21px;
+	margin-top: 32px;
+	padding-left:0 !important;
+}
+.login-btn{
+	position: absolute;
+	z-index: 1;
+	padding:8px 40px !important;
+	border-radius: 0 !important;
+	left:50%;
+	margin-left:-194px;
+	top:50%;
+	margin-top:-70px;
+	background-color:rgba(0,0,0,.4) !important;
+	border:none !important;
+	color:white !important;
+	font-size: 45px !important;
+}
+.login-btn span{
+	opacity: 0.90;
+	color:white !important;
+}
