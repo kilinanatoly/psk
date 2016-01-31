@@ -11,7 +11,7 @@ html,body,.wrap{
 html{
 }
 .slider_img{
-	max-width:100%;
+	width:100%;
 	position: absolute;
 	height:100%;
 }
@@ -24,8 +24,9 @@ html{
 	padding:10px;
 }
 .panel1{
-	border-radius: 1px !important;
+	border:none !important;
 	margin:0 !important;
+	box-shadow: none !important;
 }
 .panel1 img{
 	max-height: 100%;

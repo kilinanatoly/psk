@@ -2,52 +2,109 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Главная страница | Гражданпроект';
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+<div class="margin4"></div>
+<div class="container">
+    <div class="row top_sliders">
+        <div class="col-xs-6">
+            <p class="font_type2">НОВЫЕ ПРОЕКТЫ</p>
+            <div class="main-new_projects">
+                <img src="/images/2.jpg" alt="">
+                <footer class="top_slider_footer">
+                    <span>концептуальное предложение по реконструкции, расширению торгового ряда и площади имени батенчука е.н - 2015</span>
+                </footer>
             </div>
         </div>
-
+        <div class="col-xs-6">
+            <p class="font_type2">НОВОСТИ</p>
+            <div class="main-news">
+                <img src="/images/2.jpg" alt="">
+                <footer class="top_slider_footer">
+                    <span>концептуальное предложение по реконструкции, расширению торгового ряда и площади имени батенчука е.н - 2015</span>
+                </footer>
+            </div>
+        </div>
     </div>
 </div>
+
+<div class="margin1"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Административные здания</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Частные дома</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Благоустройство</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Многоквартирные жилые дома</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Производственные здания</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Автосалоны,СТО, мойки</p>
+        </div>
+
+
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Кафе</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Административные здания</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Административные здания</p>
+        </div>
+
+        <div class="col-xs-2 main-item_block">
+            <div class="panel panel-default main-item_panel">
+                <div class="panel-body"></div>
+            </div>
+            <p class="main-item_block_text">Административные здания</p>
+        </div>
+    </div>
+
+
+
+</div>
+
